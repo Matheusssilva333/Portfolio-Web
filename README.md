@@ -5,6 +5,6 @@ Linguagens e Tecnologias a serem utilizadas:
 - HTML
 - CSS
 - Javascript (Front End)
-- Java (Backend)
+- Python (Backend)
 - Three.js
 
