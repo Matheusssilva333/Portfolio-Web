@@ -42,16 +42,6 @@ const App: React.FC = () => {
               </span>
             </h1>
           </div>
-
-          <div className="md:col-span-2 relative hidden md:block">
-            <div className="relative aspect-square overflow-hidden rounded-[2.5rem] border border-white/10 bg-slate-900">
-              <img
-                src="file:///C:/Users/User/Downloads/532994670_122102232092974747_8269771591032081601_n.webp"
-                alt="Matheus Silva"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              />
-            </div>
-          </div>
         </div>
       </section>
 
