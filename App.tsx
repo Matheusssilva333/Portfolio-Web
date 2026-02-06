@@ -37,9 +37,7 @@ const App: React.FC = () => {
             <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mb-8">
               Engenharia <br />
               <span className="text-white">Machine Learning</span> <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
-                Soluções inovadoras.
-              </span>
+             
             </h1>
           </div>
         </div>
