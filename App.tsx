@@ -1,5 +1,5 @@
 
-import React from 'react',
+import React from 'react'
 import NeuralBackground from './components/NeuralBackground',
 import AIAssistant from './components/AIAssistant',
 import { PROJECTS, SKILLS, EXPERIENCE } from './constants.tsx',
