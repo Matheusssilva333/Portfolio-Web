@@ -1,0 +1,7 @@
+{
+  "name": "AI Dev Identity & Portfolio",
+  "description": "Uma identidade visual moderna e profissional para um desenvolvedor de Inteligência Artificial, incluindo um assistente de IA integrado com Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
