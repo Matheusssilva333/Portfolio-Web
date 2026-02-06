@@ -1,0 +1,112 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+/* ===== Base ===== */
+body {
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  background: radial-gradient(circle at 20% 20%, #0f172a, #020617 60%);
+  color: #e2e8f0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Links ===== */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #22d3ee;
+}
+
+/* ===== Buttons ===== */
+button {
+  font-family: inherit;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #2563eb, #06b6d4);
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+}
+
+/* ===== Containers ===== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  border-color: rgba(56, 189, 248, 0.4);
+  transform: translateY(-4px);
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e9;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 5rem 0;
+}
