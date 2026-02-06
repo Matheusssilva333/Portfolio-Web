@@ -6,7 +6,7 @@ import { Message } from '../types';
 const AIAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: 'Olá! Sou o assistente neural do Alex. Como posso te ajudar hoje?' }
+    { role: 'assistant', content: 'Olá! Sou o assistente neural do Matheus. Como posso te ajudar hoje?' }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
