@@ -17,7 +17,7 @@ const App: React.FC = () => {
               M
             </div>
             <span className="font-bold text-xl tracking-tighter uppercase">
-              Matheus<span className="text-cyan-500">Silva</span>
+              Matheus<span className="text-cyan-500"> Silva</span>
             </span>
           </div>
 
@@ -35,10 +35,10 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-16 items-center">
           <div className="md:col-span-3">
             <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mb-8">
-              Building <br />
-              <span className="text-white">Neural</span> <br />
+              Engenharia <br />
+              <span className="text-white">Machine Learning</span> <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
-                Solutions.
+                Soluções inovadoras.
               </span>
             </h1>
           </div>
