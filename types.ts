@@ -18,3 +18,12 @@ export interface Message {
   role: 'user' | 'assistant';
   content: string;
 }
+
+export interface Experience {
+  id: string;
+  company: string;
+  position: string;
+  period: string;
+  description: string;
+  achievements: string[];
+}
