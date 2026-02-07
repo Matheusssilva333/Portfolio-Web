@@ -42,7 +42,7 @@ const App: React.FC = () => {
             <p className="text-slate-400 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
               Desenvolvedor freelancer especializado em <span className="text-cyan-400 font-semibold">IA e automações</span>.
               Criando soluções inteligentes com <span className="text-cyan-400 font-semibold">Python</span>,
-              Java e JavaScript para transformar dados em valor.
+              Java e Python para transformar dados em valor.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
