@@ -207,7 +207,7 @@ const App: React.FC = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/matheus-silva"
+              href="www.linkedin.com/in/matheus-silva-0b177b333"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300"
