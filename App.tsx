@@ -35,8 +35,8 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-16 items-center">
           <div className="md:col-span-3">
             <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mb-8">
-              Engenharia <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Machine Learning</span> <br />
+              Matheus <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Desenvolvedor</span> <br />
               <span className="text-slate-400 text-4xl md:text-5xl">Júnior</span>
             </h1>
             <p className="text-slate-400 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
