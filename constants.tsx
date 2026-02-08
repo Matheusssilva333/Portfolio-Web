@@ -56,13 +56,13 @@ export const EXPERIENCE: Experience[] = [
   {
     id: "1",
     company: "Freelancer",
-    position: "Engenheiro de Machine Learning Júnior",
+    position: "Desenvolvedor de sistemas",
     period: "2024 - Presente",
     description: "Desenvolvimento de soluções de IA e automações para clientes diversos. Especialização em machine learning, processamento de dados e integração de APIs de IA.",
     achievements: [
-      "Desenvolvimento de sistemas de IA para consultoria de marketing digital",
+      "Desenvolvimento de sistema de IA para consultoria de marketing digital",
       "Criação de dashboards analíticos para gestão de tráfego",
-      "Implementação de plataformas SaaS para e-commerce",
+      "Implementação de plataforma SaaS para e-commerce",
       "Automações com Python e integração de APIs",
     ],
   },
