@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "Radar de monitoramento de drones",
     description: "Sistema de radar integrado com IA para resgate.",
     tags: ["Python", "Visão Computacional"],
-    imageUrl: "https://via.placeholder.com/800x600/0ea5e9/ffffff?text=Radar+IA+Drone",
+    imageUrl: "https://images.icon-icons.com/4197/PNG/96/communication_network_background_digital_technology_software_icon_262677.png",
     link: "https://github.com/Matheusssilva333/Radar-de-monitoramento-rastreamento-e-controle-de-drone-de-resgate",
   },
   {
@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     title: "IA de Consultoria de Marketing Digital",
     description: "Agente de IA em Java integrado à API do Manus AI que atua como consultor de marketing digital para crescimento empresarial.",
     tags: ["Java", "IA", "API Manus AI"],
-    imageUrl: "https://via.placeholder.com/800x600/3b82f6/ffffff?text=IA+Marketing",
+    imageUrl: "https://images.icon-icons.com/119/PNG/96/presentation_software_19674.png",
     link: "https://github.com/Matheusssilva333/IA-de-Consultoria-de-Marketing-Digital",
   },
   {
@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     title: "Sistema de Dashboards para Gestão de Tráfego",
     description: "Sistema empresarial completo de geração de dashboards dinâmicos com múltiplas camadas de segurança para gestores de tráfego.",
     tags: ["Python", "Dashboards", "Analytics"],
-    imageUrl: "https://via.placeholder.com/800x600/06b6d4/ffffff?text=Dashboard+System",
+    imageUrl: "https://images.icon-icons.com/82/PNG/96/apps_system_software_update_15746.png",
     link: "https://github.com/Matheusssilva333/Sistema-de-Dashboards",
   },
   {
@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     title: "ShopeeAds Manager",
     description: "Plataforma SaaS profissional para gestão de comissões, vendas e anúncios para afiliados da Shopee. Construída com FastAPI e Streamlit.",
     tags: ["Python", "FastAPI", "Streamlit", "SaaS"],
-    imageUrl: "https://via.placeholder.com/800x600/f97316/ffffff?text=ShopeeAds+Manager",
+    imageUrl: "https://images.icon-icons.com/1024/PNG/96/software_256_icon-icons.com_76005.png",
     link: "https://github.com/Matheusssilva333/ShopeeAds-Manager",
   },
   {
@@ -48,8 +48,8 @@ export const SKILLS: Skill[] = [
   { name: "Machine Learning", category: "core", proficiency: 85 },
   { name: "Java", category: "core", proficiency: 80 },
   { name: "JavaScript", category: "core", proficiency: 75 },
-  { name: "FastAPI", category: "core", proficiency: 82 },
-  { name: "Visão Computacional", category: "core", proficiency: 78 },
+  { name: "Agentes de IA", category: "core", proficiency: 82 },
+  { name: "Automação de tarefas", category: "core", proficiency: 78 },
 ];
 
 export const EXPERIENCE: Experience[] = [
