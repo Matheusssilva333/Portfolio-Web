@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     title: "Calculadora Industrial",
     description: "Calculadora especializada para cálculos mecânicos industriais incluindo RPM, torque e potência para motores elétricos.",
     tags: ["JavaScript", "HTML", "CSS"],
-    imageUrl: "https://via.placeholder.com/800x600/8b5cf6/ffffff?text=Calculadora+Industrial",
+    imageUrl: "https://images.icon-icons.com/3254/PNG/96/report_calculator_pie_chart_icon_205718.png",
     link: "https://github.com/Matheusssilva333/Calculadora-Industrial",
   },
 ];
