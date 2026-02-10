@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     title: "Radar de monitoramento de drones",
     description: "Sistema de radar integrado com IA para resgate.",
     tags: ["Python", "Visão Computacional"],
-    imageUrl: "file:///C:/Users/User/Downloads/icons8-rob%C3%B4-94.webp",
+    imageUrl: "<a target="_blank" href="https://icons8.com/icon/ONZD7vOgCy7F/drone">Drone</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>",
     link: "https://github.com/Matheusssilva333/Radar-de-monitoramento-rastreamento-e-controle-de-drone-de-resgate",
   },
   {
@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     title: "IA de Consultoria de Marketing Digital",
     description: "Agente de IA em Java integrado à API do Manus AI que atua como consultor de marketing digital para crescimento empresarial.",
     tags: ["Java", "IA", "API Manus AI"],
-    imageUrl: "file:///C:/Users/User/Downloads/icons8-marketing-40.webp",
+    imageUrl: "<a target="_blank" href="https://icons8.com/icon/u2hl3yVjaDnB/automation">Automação</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>",
     link: "https://github.com/Matheusssilva333/IA-de-Consultoria-de-Marketing-Digital",
   },
   {
@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     title: "Sistema de Dashboards para Gestão de Tráfego",
     description: "Sistema empresarial completo de geração de dashboards dinâmicos com múltiplas camadas de segurança para gestores de tráfego.",
     tags: ["Python", "Dashboards", "Analytics"],
-    imageUrl: "file:///C:/Users/User/Downloads/icons8-programa%C3%A7%C3%A3o-16.webp",
+    imageUrl: "<a target="_blank" href="https://icons8.com/icon/jqexjjILFgDS/control-panel">Painel de controle</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>",
     link: "https://github.com/Matheusssilva333/Sistema-de-Dashboards",
   },
   {
@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     title: "ShopeeAds Manager",
     description: "Plataforma SaaS profissional para gestão de comissões, vendas e anúncios para afiliados da Shopee. Construída com FastAPI e Streamlit.",
     tags: ["Python", "FastAPI", "Streamlit", "SaaS"],
-    imageUrl: "file:///C:/Users/User/Downloads/icons8-marketing-64.webp",
+    imageUrl: "<a target="_blank" href="https://icons8.com/icon/tycycXmAZfY7/total-sales">Vendas</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>",
     link: "https://github.com/Matheusssilva333/ShopeeAds-Manager",
   },
   {
@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     title: "Calculadora Industrial",
     description: "Calculadora especializada para cálculos mecânicos industriais incluindo RPM, torque e potência para motores elétricos.",
     tags: ["JavaScript", "HTML", "CSS"],
-    imageUrl: "file:///C:/Users/User/Downloads/icons8-automa%C3%A7%C3%A3o-40.webp",
+    imageUrl: "<a target="_blank" href="https://icons8.com/icon/h9udvJ8YzhgG/automatic">Automação</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>",
     link: "https://github.com/Matheusssilva333/Calculadora-Industrial",
   },
 ];
