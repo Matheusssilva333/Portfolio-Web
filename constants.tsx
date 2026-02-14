@@ -60,3 +60,14 @@ export const EXPERIENCE: Experience[] = [
     ],
   },
 ];
+
+export const FEEDBACKS: Feedbacks[] = [
+{
+id: "1",
+description: "Provas sociais"
+imageURL: "C:\Users\User\Downloads\WhatsApp Image 2026-02-14 at 16.44.54.jpeg",
+imageUrl: "c:\Users\User\Downloads\WhatsApp Image 2026-02-14 at 16.45.37.jpeg",
+
+}
+
+]
