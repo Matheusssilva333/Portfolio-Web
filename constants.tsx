@@ -63,7 +63,7 @@ export const EXPERIENCE: Experience[] = [
 export const FEEDBACKS: Feedback[] = [
   {
     id: "1",
-    description: "Cliente extremamente satisfeito com o Radar de Drones. Entrega rápida e resultado acima do esperado.",
+    description: "Clientes extremamente satisfeitos com sistemas automatizados. Entrega rápida e resultado acima do esperado.",
     imageUrls: [
       "/feedback/feedback1.jpeg",
       "/feedback/feedback2.jpeg",
