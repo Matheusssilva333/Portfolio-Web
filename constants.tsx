@@ -60,13 +60,17 @@ export const EXPERIENCE: Experience[] = [
   },
 ];
 
-export const FEEDBACKS: Feedback[] = [
-  {
-    id: "1",
-    description: "Clientes extremamente satisfeitos com sistemas automatizados. Entrega rápida e resultado acima do esperado.",
-    imageUrls: [
-      "/feedback/feedback1.jpeg",
-      "/feedback/feedback2.jpeg",
-    ],
-  },
-];
+
+<div className="p-6 bg-slate-950 border-t border-white/5 space-y-4">
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {feedback.imageUrls.map((url, idx) => (
+      <img
+        key={idx}
+        src={url}
+        alt={`Prova social ${idx + 1}`}
+        className="w-full rounded-2xl shadow-lg object-contain max-h-[500px] mx-auto hover:scale-[1.02] transition-transform duration-300 bg-slate-900/40 p-2"
+        loading="lazy"
+      />
+    ))}
+  </div>
+</div>
