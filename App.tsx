@@ -1,14 +1,9 @@
 import React from "react";
-import NeuralBackground from "./components/NeuralBackground";
-import AIAssistant from "./components/AIAssistant";
-import { PROJECTS, SKILLS, EXPERIENCE } from "./constants";
+import { PROJECTS, SKILLS, EXPERIENCE, FEEDBACKS } from "./constants";
 
 const App: React.FC = () => {
   return (
-    <div className="relative min-h-screen selection:bg-cyan-500/30">
-      <NeuralBackground />
-      <AIAssistant />
-
+    <div className="relative min-h-screen selection:bg-cyan-500/30 bg-slate-950 text-white">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-40 border-b border-white/5 bg-slate-950/80 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
@@ -24,6 +19,7 @@ const App: React.FC = () => {
           <div className="hidden md:flex gap-10 text-xs font-bold uppercase tracking-widest text-slate-400">
             <a href="#projects" className="hover:text-cyan-400 transition-colors">Projetos</a>
             <a href="#experience" className="hover:text-cyan-400 transition-colors">Carreira</a>
+            <a href="#feedbacks" className="hover:text-cyan-400 transition-colors">Depoimentos</a>
             <a href="#skills" className="hover:text-cyan-400 transition-colors">Stack</a>
             <a href="#contact" className="hover:text-cyan-400 transition-colors text-cyan-500">Contato</a>
           </div>
@@ -80,12 +76,8 @@ const App: React.FC = () => {
                   className="aspect-[4/3] object-cover"
                 />
                 <div className="p-8 flex-1 flex flex-col">
-                  <h3 className="text-2xl font-bold mb-4">
-                    {project.title}
-                  </h3>
-                  <p className="text-slate-400 text-sm mb-6 flex-1">
-                    {project.description}
-                  </p>
+                  <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
+                  <p className="text-slate-400 text-sm mb-6 flex-1">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag, idx) => (
                       <span
@@ -132,25 +124,58 @@ const App: React.FC = () => {
                     {exp.period}
                   </span>
                 </div>
-                <p className="text-slate-300 mb-6 leading-relaxed">
-                  {exp.description}
-                </p>
+                <p className="text-slate-300 mb-6 leading-relaxed">{exp.description}</p>
                 <div className="space-y-3">
                   <h4 className="text-sm font-bold uppercase tracking-wider text-cyan-400">
                     Principais Realizações
                   </h4>
                   <ul className="space-y-2">
                     {exp.achievements.map((achievement, idx) => (
-                      <li
-                        key={idx}
-                        className="flex items-start gap-3 text-slate-400 text-sm"
-                      >
+                      <li key={idx} className="flex items-start gap-3 text-slate-400 text-sm">
                         <span className="text-cyan-500 mt-1">▹</span>
                         <span>{achievement}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Feedbacks / Provas Sociais */}
+      <section id="feedbacks" className="py-32 px-6 border-t border-white/5">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-5xl font-black tracking-tighter mb-16 text-center">
+            Provas <span className="text-cyan-500">Sociais</span>
+          </h2>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {FEEDBACKS.map((feedback) => (
+              <div
+                key={feedback.id}
+                className="bg-slate-900/40 border border-white/5 rounded-3xl overflow-hidden hover:border-cyan-500/30 transition-all duration-300 flex flex-col"
+              >
+                <div className="p-8 flex-1">
+                  <p className="text-slate-300 leading-relaxed italic text-lg">
+                    “{feedback.description}”
+                  </p>
+                </div>
+
+                {feedback.imageUrls.length > 0 && (
+                  <div className="grid grid-cols-2 gap-3 p-4 bg-slate-950 border-t border-white/5">
+                    {feedback.imageUrls.map((url, idx) => (
+                      <img
+                        key={idx}
+                        src={url}
+                        alt={`Feedback ${idx + 1}`}
+                        className="w-full h-48 object-cover rounded-2xl shadow-md hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                      />
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -211,7 +236,7 @@ const App: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300"
-              >
+            >
               LinkedIn
             </a>
           </div>

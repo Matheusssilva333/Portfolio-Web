@@ -1,4 +1,3 @@
-
 export interface Project {
   id: string;
   title: string;
@@ -10,13 +9,8 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  category: 'core' | 'framework' | 'tool';
-  proficiency: number; // 0-100
-}
-
-export interface Message {
-  role: 'user' | 'assistant';
-  content: string;
+  category: string;
+  proficiency: number;
 }
 
 export interface Experience {
@@ -26,4 +20,10 @@ export interface Experience {
   period: string;
   description: string;
   achievements: string[];
+}
+
+export interface Feedback {
+  id: string;
+  description: string;
+  imageUrls: string[];
 }
